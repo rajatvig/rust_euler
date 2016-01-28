@@ -1,0 +1,8 @@
+[package]
+name = "euler"
+version = "0.1.0"
+authors = ["Rajat Vig <rajat.vig@gmail.com>"]
+
+[[bin]]
+name = "ex1"
+path = "src/ex1.rs"
