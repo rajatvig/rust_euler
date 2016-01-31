@@ -3,6 +3,10 @@ name = "euler"
 version = "0.1.0"
 authors = ["Rajat Vig <rajat.vig@gmail.com>"]
 
+[lib]
+name = "helpers"
+crate-type = ["rlib", "dylib"]
+
 [[bin]]
 name = "ex1"
 path = "src/ex1.rs"
@@ -22,3 +26,7 @@ path = "src/ex3.rs"
 [[bin]]
 name = "ex4"
 path = "src/ex4.rs"
+
+[[bin]]
+name = "ex5"
+path = "src/ex5.rs"
