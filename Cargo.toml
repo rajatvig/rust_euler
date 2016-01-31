@@ -18,3 +18,7 @@ path = "src/ex2_alt.rs"
 [[bin]]
 name = "ex3"
 path = "src/ex3.rs"
+
+[[bin]]
+name = "ex4"
+path = "src/ex4.rs"
